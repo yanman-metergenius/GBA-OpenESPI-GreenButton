@@ -40,4 +40,4 @@ jobs:
       # run tests!
       - run: mvn integration-test
 
-      - run: mvn sonar:sonar -Dsonar.projectKey=greenbuttonalliance -Dsonar.organization=greenbuttonalliance -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=${SONAR_PWD}
+      - run: mvn sonar:sonar -Dsonar.projectKey=greenbuttonalliance -Dsonar.organization=greenbuttonalliance -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=a7e8840ca0c7a33f87d0b9545ca19ff91ed6b9c5
